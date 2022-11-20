@@ -3,7 +3,7 @@
   "description": "Redesigning Wordpress",
   "version": "1.0.0",
   "main": "gh-pages.js",
-  "homepage": "https://redesign-wp.github.io",
+  "home-page": "https://redesign-wp.github.io",
   "dependencies": {
     "array-union": "^1.0.2",
     "array-uniq": "^1.0.3",
@@ -52,6 +52,8 @@
     "gh-pages": "^4.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
