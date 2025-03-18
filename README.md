@@ -1,2 +1,3 @@
-# redesign-wp.github.io
-Redesigning WordPress
+# REDESIGN WORDPRESS
+
+---
